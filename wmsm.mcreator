@@ -1,0 +1,205 @@
+{
+  "id_map": {
+    "ENTITY": 2
+  },
+  "mod_elements": [
+    {
+      "name": "Watermelonstrip",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "watermelonstrip"
+    },
+    {
+      "name": "WatermelontotemRightClickOnBlocks",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watermelontotem_right_click_on_blocks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Watermelontotem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watermelontotem"
+    },
+    {
+      "name": "Watermelontotemrecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watermelontotemrecipe"
+    },
+    {
+      "name": "PrawnheadmanPotionExpires",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prawnheadman_potion_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prawnheadman",
+      "type": "potion",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prawnheadman"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "watermelon_walk",
+      "files": [
+        "watermelon_strip_walk"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "watermelon_hurt",
+      "files": [
+        "watermelon_strip_hurt"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "watermelon_death",
+      "files": [
+        "watermelon_strip_death"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "entity.watermelonstrip.name": "Арбузные полоски",
+      "tipped_arrow.effect.prawnheadman": "Креветка, голова человека, стрела волшебного лекарства.",
+      "item.watermelontotem.name": "Арбузный тотем",
+      "effect.prawnheadman": "Креветоголовый человек",
+      "splash_potion.effect.prawnheadman": "Брызги креветок.",
+      "potion.effect.prawnheadman": "Лекарства для людей с креветками",
+      "lingering_potion.effect.prawnheadman": "Lingering Potion Of Prawn Head Man",
+      "subtitles.watermelon_death": "",
+      "subtitles.watermelon_walk": "",
+      "subtitles.watermelon_hurt": ""
+    },
+    "zh_tw": {
+      "entity.watermelonstrip.name": "西瓜條",
+      "tipped_arrow.effect.prawnheadman": "蝦頭男之箭",
+      "item.watermelontotem.name": "西瓜圖騰",
+      "effect.prawnheadman": "蝦頭男",
+      "splash_potion.effect.prawnheadman": "噴濺型蝦頭男藥水",
+      "potion.effect.prawnheadman": "蝦頭男藥水",
+      "lingering_potion.effect.prawnheadman": "滯留型蝦頭男藥水",
+      "subtitles.watermelon_death": "",
+      "subtitles.watermelon_walk": "",
+      "subtitles.watermelon_hurt": ""
+    },
+    "en_us": {
+      "entity.watermelonstrip.name": "Watermelon Strip",
+      "tipped_arrow.effect.prawnheadman": "Arrow of Potion Of Prawn Head Man",
+      "item.watermelontotem.name": "Watermelon Totem",
+      "effect.prawnheadman": "Prawn Head Man",
+      "splash_potion.effect.prawnheadman": "Splash Potion Of Prawn Head Man",
+      "potion.effect.prawnheadman": "Potion Of Prawn Head Man",
+      "lingering_potion.effect.prawnheadman": "Lingering Potion Of Prawn Head Man",
+      "subtitles.watermelon_death": "",
+      "subtitles.watermelon_walk": "",
+      "subtitles.watermelon_hurt": ""
+    },
+    "zh_cn": {
+      "entity.watermelonstrip.name": "西瓜条",
+      "tipped_arrow.effect.prawnheadman": "虾头男之箭",
+      "item.watermelontotem.name": "西瓜图腾",
+      "effect.prawnheadman": "虾头男",
+      "splash_potion.effect.prawnheadman": "喷溅型虾头男药水",
+      "potion.effect.prawnheadman": "虾头男药水",
+      "lingering_potion.effect.prawnheadman": "滞留型虾头男药水",
+      "subtitles.watermelon_death": "",
+      "subtitles.watermelon_walk": "",
+      "subtitles.watermelon_hurt": ""
+    },
+    "ja_jp": {
+      "entity.watermelonstrip.name": "すいかの細切れ",
+      "tipped_arrow.effect.prawnheadman": "エビ頭男の矢",
+      "item.watermelontotem.name": "スイカトーテム",
+      "effect.prawnheadman": "エビ頭男",
+      "splash_potion.effect.prawnheadman": "スパッタリング型エビ頭男薬",
+      "potion.effect.prawnheadman": "エビ頭男薬",
+      "lingering_potion.effect.prawnheadman": "滞在型エビ頭男薬",
+      "subtitles.watermelon_death": "",
+      "subtitles.watermelon_walk": "",
+      "subtitles.watermelon_hurt": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wmsm",
+    "modName": "WatermelonStripMod",
+    "version": "0.1.0",
+    "author": "BunnimimiTotem",
+    "websiteURL": "https://github.com/Busituteng/WaterMelonStripMod/tree/main",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "MCreator, TTSMaker",
+    "modElementsPackage": "io.github.busituteng.wmsm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

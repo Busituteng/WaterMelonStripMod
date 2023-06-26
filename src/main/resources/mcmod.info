@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "wmsm",
+    "name": "WatermelonStripMod",
+    "description": "",
+    "version": "0.1.0",
+    "credits": "MCreator, TTSMaker",
+    "logoFile": "assets/wmsm/textures/logo.png",
+    "mcversion": "1.12.2",
+    "url": "https://github.com/Busituteng/WaterMelonStripMod/tree/main",
+    "updateUrl": "",
+    "authorList": [
+      "BunnimimiTotem"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

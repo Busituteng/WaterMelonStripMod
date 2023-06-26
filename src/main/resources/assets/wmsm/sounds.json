@@ -1,0 +1,29 @@
+{
+  "watermelon_walk": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wmsm:watermelon_strip_walk",
+        "stream": false
+      }
+    ]
+  },
+  "watermelon_hurt": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wmsm:watermelon_strip_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "watermelon_death": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wmsm:watermelon_strip_death",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Potion Of Prawn Head Man",
+    "effectName": "Prawn Head Man",
+    "icon": "prawn_head_man.png",
+    "color": {
+      "value": -16724737,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onExpired": {
+      "name": "PrawnheadmanPotionExpires"
+    }
+  }
+}
