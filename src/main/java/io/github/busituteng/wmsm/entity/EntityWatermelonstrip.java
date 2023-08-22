@@ -29,9 +29,12 @@ import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelBase;
 
+import java.util.Map;
 import java.util.Iterator;
+import java.util.HashMap;
 import java.util.ArrayList;
 
+import io.github.busituteng.wmsm.procedure.ProcedureWatermelonstripEntityDies;
 import io.github.busituteng.wmsm.ElementsWmsmMod;
 
 @ElementsWmsmMod.ModElement.Tag
@@ -124,6 +127,23 @@ public class EntityWatermelonstrip extends ElementsWmsmMod.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureWatermelonstripEntityDies.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

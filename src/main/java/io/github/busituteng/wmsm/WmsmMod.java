@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = WmsmMod.MODID, version = WmsmMod.VERSION)
 public class WmsmMod {
 	public static final String MODID = "wmsm";
-	public static final String VERSION = "0.1.0";
+	public static final String VERSION = "0.2.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("wmsm:a");
 	@SidedProxy(clientSide = "io.github.busituteng.wmsm.ClientProxyWmsmMod", serverSide = "io.github.busituteng.wmsm.ServerProxyWmsmMod")
 	public static IProxyWmsmMod proxy;

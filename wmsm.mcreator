@@ -87,6 +87,35 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "prawnheadman"
+    },
+    {
+      "name": "WatermelonstripEntityDies",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watermelonstrip_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -185,9 +214,9 @@
   "workspaceSettings": {
     "modid": "wmsm",
     "modName": "WatermelonStripMod",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "BunnimimiTotem",
-    "websiteURL": "https://github.com/Busituteng/WaterMelonStripMod/tree/main",
+    "websiteURL": "https://github.com/Busituteng/WaterMelonStripMod",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
